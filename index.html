@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
     <link
       rel="icon"
@@ -25,78 +24,65 @@
       <section class="content">
         <aside class="calculator">
           <div class="input-presentation">
+            <form id="bill_form" class="tip-form">
             <label for="bill_input">Bill</label>
             <img
               src="./assets/images/icon-dollar.svg"
               alt="dólar icon"
               class="icon"
             />
-            <input
-              type="text"
-              id="bill_input"
-              class="calculator-input"
-              placeholder="0"
-            />
+            <input type="text" id="bill_input" class="calculator-input" placeholder="0"/>
           </div>
 
-          <div class="choose-tip">
-            <p>Select Tip %</p>
-            <div class="tip-btns">
-              <button class="btn active">5%</button>
-              <button class="btn">10%</button>
-              <button class="btn">15%</button>
-              <button class="btn">25%</button>
-              <button class="btn">50%</button>
-              <input type="text" placeholder="Custom" class="custom-btn"/>
+            <div class="choose-tip">
+              <p>Select Tip %</p>
+              <div class="tip-btns">
+                <button class="btn active">5%</button>
+                <button class="btn">10%</button>
+                <button class="btn">15%</button>
+                <button class="btn">25%</button>
+                <button class="btn">50%</button>
+                <input type="text" id ="custom_value" placeholder="Custom" class="custom-btn" value=""/>
+              </div>
             </div>
-          </div>
+          
 
           <div class="input-presentation">
-            <label for="people_number">Number of People</label>
+            <label for="people_input">Number of People</label>
             <img
               src="./assets/images/icon-person.svg"
               alt="person icon"
               class="icon"
             />
-            <input
-              type="text"
-              id="people_number"
-              class="calculator-input"
-              placeholder="0"
-            />
+            <input type="text" id="people_input" class="calculator-input" placeholder="0"/>
           </div>
+        </form>
         </aside>
         <aside class="results">
           <div class="amount">
             <p>Tip Amount</p>
             <p class="person-p">/ person</p>
-            <span class="tip-total">$0.00</span>
+              <span class="tip-amount" id="amount_id"></span>
           </div>
             
          
           <div class="amount">
             <p>Total</p>
             <p class="person-p">/ person</p>
-            <span class="tip-total">$0.00</span>
+            <span class="tip-total" id="total_id"></span>
           </div>
-            
-          
           <button id="reset_btn">Reset</button>
         </aside>
       </section>
 
       <footer>
-        <span
-          >Challenge by
-          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-            >Frontend Mentor</a
-          >.
+        <span>Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
         </span>
-        <span
-          >Coded by
-          <a href="https://github.com/tpinheiro4"> Thiago Pinheiro</a>.</span
-        >
+        <span>Coded by <a href="https://github.com/tpinheiro4"> Thiago Pinheiro</a>.</span>
       </footer>
     </main>
+    <script src="./src/main.js"></script>
   </body>
+  
 </html>

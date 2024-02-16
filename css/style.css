@@ -160,6 +160,10 @@ label {
     font-size: 32px;
 }
 
+.tip-amount {
+        color: var(--amount-color);
+        font-size: 32px;
+}
 
 #reset_btn {
     width: 60%;
