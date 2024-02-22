@@ -101,6 +101,11 @@ label {
     gap: 10px;
 }
 
+.btn:hover {
+    background-color: #f4fafa;
+    color: black;
+}
+
 .btn {
     all: unset;
     align-items: center;
