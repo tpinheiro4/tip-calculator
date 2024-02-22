@@ -21,6 +21,10 @@ div {
     display: block;
 }
 
+.splitter {
+    padding: 25px;
+}
+
 .container {
     display: flex;
     align-items: center;

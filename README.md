@@ -9,9 +9,8 @@ This is a solution to the [Tip calculator app challenge on Frontend Mentor](http
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
+- HTML 5
+- CSS
 - JS
 
 
