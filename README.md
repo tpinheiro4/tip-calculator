@@ -4,7 +4,7 @@ This is a solution to the [Tip calculator app challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: [Soon](https://www.frontendmentor.io/solutions/tip-calculator-using-css-and-js-only-B1YmT4UEXQ)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/tip-calculator-using-css-and-js-only-B1YmT4UEXQ)
 - Live Site URL: [Github Pages](https://tpinheiro4.github.io/tip-calculator/)
 
 ### Built with
